@@ -98,9 +98,7 @@ function mostrar() {
 }
 
 function eliminar(indice) {
-    console.log(array)
     array.splice(indice,1);
-    console.log(array)
     document.getElementById("resultado").innerHTML = "";
     mostrar()
 }
