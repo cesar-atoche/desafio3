@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/java.js"></script>
+</head>
+
+<body>
+    <font size =6 ><b>GENERADOR DE CODIGO</b></font><br>
+    <font size =1 >(Genera codigo con el primer digito de los nombres, apellidos,nacimiento y sexo anteponiendo "COD")<br>* <i>Puede agregar varios clientes e eliminar</i></font>
+    <form>
+        <p>Ingrese nombre : <input type="text" id="nombre"></p>
+        <p>Ingrese apellido : <input type="text" id="apellido"></p>
+        <p>Ingrese sexo :
+            <!--  <input type="text" id="genero" maxlength="1" placeholder="M ó F"> -->
+            <select id="genero">
+                <option value="M">M</option>
+                <option value="F">F</option>
+            </select>
+        </p>
+        <p>Ingrese nacimiento : <input type="date" id="nacimiento"></p>
+        <p><input type="reset" value="Agregar" onclick="return prueba()"></p>
+    </form>
+    <table id="respuesta"></table>
+    <p id="respuestaB"></p>
+
+
+
+</body>
+
+</html>
